@@ -57,10 +57,10 @@
     /* SET LIBRARY TEXT PART */
     /*************************/
     --FontSize: 15px; /* The size of the font */
-    --Font: "Motiva Sans", Arial, Helvetica, sans-serif;; /* Any font on the system */
-    --FontStyle: uppercase; /* Set to [ lowercase | uppercase | none ] */
+    --Font: "Source Code Pro Regular", Arial, Helvetica, sans-serif;; /* Any font on the system */
+    --FontStyle: lowercase; /* Set to [ lowercase | uppercase | none ] */
     --LetterSpacing: 3px !important; /* Set 3px or more */
-    --YourLibraryName: "YOUR LIBRARY" !important; /* Set your own library name */
+    --YourLibraryName: "nordlibrary" !important; /* Set your own library name */
     --BackgroundColor: transparent; /* Button background color */
     --LibraryButton: flex; /* Hide/Show Library Button, Set to [ none | flex ] */
     --LibrarySearch: flex; /* Hide/Show Library Button, Set to [ none | flex ] */
@@ -75,6 +75,12 @@
     --TitleFont: 500; /* Set to [ 1 > 1000 ] */
 
 
+    /**************/
+    /* GAME ICONS */
+    /**************/
+    --GameIcons: block; /* Set to [ none | block ] */
+
+
     /**********************/
     /* INGAME FRIEND ICON */
     /**********************/
@@ -86,7 +92,7 @@
     /* BLUR AMOUNT ( Lower > Better ) */
     /**********************************/
     /* Blur turned off by default, to turn on; set FlatColor to none, and switch everything on. */
-    --FlatColor: #1e1e1f; /* Set to [ none | color ] */
+    --FlatColor: #2e3340; /* Set to [ none | color ] */
     --FuckBlur: blur(0px); /* Set to [ 0px | Low PC ( 10px ) | High PC ( > 20px ) ] */
     --BackgroundBlur: none; /* Set to [ none | flex ] */
     --ImageBlur: hidden; /* Set to [ hidden | visible ] */
@@ -116,8 +122,8 @@
     
     --ButtonInstall: var(--libraryhome); /* Install button color shade 1 */
     --ButtonInstall2: var(--libraryhome); /* Install button color shade 2 */
-    --ButtonInstallHover: #47bfff; /* Install button hover color shade 1 */
-    --ButtonInstallHover2: #1a44c2; /* Install button hover color shade 2 */
+    --ButtonInstallHover: #5e81ac; /* Install button hover color shade 1 */
+    --ButtonInstallHover2: #5e81ac; /* Install button hover color shade 2 */
 
 }
 
