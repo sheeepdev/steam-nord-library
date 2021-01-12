@@ -1,3 +1,5 @@
+# Nordified config for Shiina's steam library
+just replace the config.css file with my one :)
 # Steam Library
 
 Visit https://steamcommunity.com/groups/metroskin/discussions/0/1761356057412667612/ to check for updates.
