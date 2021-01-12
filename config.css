@@ -2,21 +2,21 @@
 
 :root { /* COLORS */
 
-    --black: #151515;
-    --darkgrey: #1e1e1f;
-    --grey: #2e2e2f;
-    --lightgrey: #3e3e3f;
-    --white: #ffffff;
-    --purple: #6624e2;
-    --green: #33FF00;
-    --blue: #0066FF;
-    --pink: #FF00FF;
-    --red: #FF0000;
-    --orange: #FF6600;
-    --yellow: #FFFF00;
+    --black: #2e3340;
+    --darkgrey: #2e3340;
+    --grey: #2e3340;
+    --lightgrey: #2e3340;
+    --white: #d8dee9;
+    --purple: #5e81ac;
+    --green: #a3be8c;
+    --blue: #5e81ac;
+    --pink: #b48ead;
+    --red: #bf616a;
+    --orange: #d08770;
+    --yellow: #ebcb8b;
     --offlinegrey: #919191;
-    --ingamegreen: #90ba3c;
-    --onlineblue: #5db2fe;
+    --ingamegreen: #a3be8c;
+    --onlineblue: #5e81ac;
     --yourcolor: #000000; /* make your own color */
     --invisiblegrey: rgba(62, 62, 62, 0.24);
     --invisibleblack: rgba(0, 0, 0, 0);
@@ -26,14 +26,14 @@
     --backdropblur: var(--invisiblegrey); /* Blur color */
     --libraryhome: var(--purple); /* Main library color */
     --progressbar: var(--purple); /* Progressbar color */
-    --gamelist: var(--purple); /* Gamelist selected color */
+    --gamelist: var(--purple); /* Game list selected color */
     --titlehover: var(--invisibleblack); /* Title hover background color */
     --titlenamehover: var(--purple); /* Game list title hover name color */
     --gamehover: var(--white); /* Game hover color */
     --textcolor: var(--purple); /* Text color */
     --pending: var(--red); /* Text color for pending updates/downloads */
     --offline: var(--offlinegrey);; /* Offline avatar color */
-    --ingame: var(--ingamegreen); /* In-game avatar color */
+    --ingame: var(--ingamegreen); /* Ing-ame avatar color */
     --online: var(--onlineblue); /* Online avatar color */
 
 }
